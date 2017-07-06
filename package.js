@@ -1,9 +1,9 @@
 Package.describe({
-  name: "yogiben:autoform-file",
+  name: "vev100:autoform-file",
   summary: "File upload for AutoForm",
   description: "File upload for AutoForm",
-  version: "0.4.2",
-  git: "https://github.com/yogiben/autoform-file.git"
+  version: "0.4.3",
+  git: "https://github.com/vev100/meteor-autoform-file.git"
 });
 
 Package.onUse(function(api) {
@@ -16,7 +16,7 @@ Package.onUse(function(api) {
     'reactive-var',
     'templating',
     'less@1.0.0 || 2.5.1',
-    'aldeed:autoform@5.5.1',
+    'aldeed:autoform@6.2.0',
     'fortawesome:fontawesome@4.5.0',
     'cfs:ui@0.1.3',
     'mpowaga:jquery-fileupload@9.11.2'
